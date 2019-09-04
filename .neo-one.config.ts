@@ -31,7 +31,8 @@ export default {
     // NEO•ONE will start the network on this port.
     port: 9040,
   },
-  // NEO•ONE will configure various parts of the CLI that require network accounts using the value provided here, for example, when deploying contracts.
+  // NEO•ONE will configure various parts of the CLI that require network
+  // accounts using the value provided here, for example, when deploying contracts.
   // Refer to the documentation at https://neo-one.io/docs/configuration for more information.
   networks: defaultNetworks,
   neotracker: {
