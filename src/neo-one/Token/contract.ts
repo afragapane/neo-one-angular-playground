@@ -1,7 +1,7 @@
-/* @hash f8811c3c37072870b50329dad1b3afca */
+/* @hash 173aba5ae53e052b9f77ee020e4b5bab */
 // tslint:disable
 /* eslint-disable */
-import { Client } from '@neo-one/client';
+import { Client } from '@neo-one/client-browserify';
 import { TokenSmartContract } from './types';
 import { tokenABI } from './abi';
 import { sourceMaps } from '../sourceMaps';

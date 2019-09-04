@@ -1,7 +1,7 @@
-/* @hash e7952d19af0e56f27d850b1a3e3619cb */
+/* @hash a296ea667fd4bd8744ed4c10d77ad6cc */
 // tslint:disable
 /* eslint-disable */
-import { Client } from '@neo-one/client';
+import { Client } from '@neo-one/client-browserify';
 
 import { ICOSmartContract, ICOMigrationSmartContract } from './ICO/types';
 import { TokenSmartContract, TokenMigrationSmartContract } from './Token/types';

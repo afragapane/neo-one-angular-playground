@@ -1,7 +1,7 @@
-/* @hash bd6019ed2d0edc389a8af4c619e19ec0 */
+/* @hash 1f3914d3c0c79a8a6e07d668aaf73fda */
 // tslint:disable
 /* eslint-disable */
-import { SourceMaps } from '@neo-one/client';
+import { SourceMaps } from '@neo-one/client-browserify';
 
 let sourceMapsIn: SourceMaps = {};
 

@@ -1,7 +1,7 @@
-/* @hash 92bf39e9a0b258178c4a0615b94794a8 */
+/* @hash b1fed0e7f497c62a118dc68a394e25d2 */
 // tslint:disable
 /* eslint-disable */
-import { ABI } from '@neo-one/client';
+import { ABI } from '@neo-one/client-browserify';
 
 export const icoABI: ABI = {
   events: [

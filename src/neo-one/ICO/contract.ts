@@ -1,7 +1,7 @@
-/* @hash fcd97a6130a9c98939fe6a838f3af651 */
+/* @hash fe66ccb808e3bd41b55aa3abbd8090bb */
 // tslint:disable
 /* eslint-disable */
-import { Client } from '@neo-one/client';
+import { Client } from '@neo-one/client-browserify';
 import { ICOSmartContract } from './types';
 import { icoABI } from './abi';
 import { sourceMaps } from '../sourceMaps';

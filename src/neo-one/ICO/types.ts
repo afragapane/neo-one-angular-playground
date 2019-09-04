@@ -1,4 +1,4 @@
-/* @hash 8b95758943c21aea9e5a6b028f96b9c0 */
+/* @hash 614c1b363f3058d48cf7a857c4a87821 */
 // tslint:disable
 /* eslint-disable */
 import {
@@ -13,7 +13,7 @@ import {
   SmartContract,
   TransactionOptions,
   TransactionResult,
-} from '@neo-one/client';
+} from '@neo-one/client-browserify';
 import BigNumber from 'bignumber.js';
 
 export interface ICOTransferEventParameters {

@@ -1,4 +1,4 @@
-/* @hash 6001926cd2bf3bd451c2bbaba0dfa8a8 */
+/* @hash 99d6ef46bb92a79b6de0f2562db0ba37 */
 // tslint:disable
 /* eslint-disable */
 import {
@@ -11,7 +11,7 @@ import {
   NEOONEProvider,
   NEOONEDataProvider,
   UserAccountProviders,
-} from '@neo-one/client';
+} from '@neo-one/client-browserify';
 
 export interface DefaultUserAccountProviders {
   readonly memory: LocalUserAccountProvider<LocalKeyStore, NEOONEProvider>;

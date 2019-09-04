@@ -21,7 +21,7 @@ export default {
     // NEO•ONE will generate client helpers for the framework specified here. Can be one of 'react', 'angular', 'vue' or 'none'.
     framework: 'angular',
     // Set this to true if you're using an environment like Expo that doesn't handle browserifying dependencies automatically.
-    browserify: false,
+    browserify: true,
     // Set this to true if you're running in codesandbox to workaround certain limitations of codesandbox.
     codesandbox: false,
   },

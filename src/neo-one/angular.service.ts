@@ -1,8 +1,8 @@
-/* @hash 624879cb665c823f9dec4a2f69b144e5 */
+/* @hash 2c7255557fc505662437e814322955eb */
 // tslint:disable
 /* eslint-disable */
 import { Injectable } from '@angular/core';
-import { Client, DeveloperClients } from '@neo-one/client';
+import { Client, DeveloperClients } from '@neo-one/client-browserify';
 import { Contracts } from './contracts';
 import { createClient, createDeveloperClients } from './client';
 import { createTokenSmartContract } from './Token/contract';

@@ -1088,7 +1088,7 @@
     bignumber.js "^9.0.0"
     tslib "^1.10.0"
 
-"@neo-one/cli@^1.3.6":
+"@neo-one/cli@1.3.6":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@neo-one/cli/-/cli-1.3.6.tgz#01f558020002b54878cbd808532c3a7e740985b8"
   integrity sha512-bsRl11iUHzyeA0bWxC4reoNu01ypWfWPeZRfA8qbMUypIfncCZH0JtCk3IFrkI4t/OcMhpVqd47Z/mmXu4wj2A==
@@ -1124,6 +1124,36 @@
     typescript "^3.6.2"
     yargs "^14.0.0"
 
+"@neo-one/client-browserify@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-browserify/-/client-browserify-1.2.7.tgz#c0495b163b30b18c2e38a8581fbecfc2620e8898"
+  integrity sha512-n3PiOMwigRk4yw+HpCW4HaDdWxuI+u42ogKPSDbUCzDoMovvmUdi3px2lRwLqYZb/F+ED8L3r+fVkBH8EkMfcw==
+  dependencies:
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/client-core-browserify" "^1.4.4"
+    "@neo-one/developer-tools-browserify" "^1.1.10"
+
+"@neo-one/client-common-browserify@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-common-browserify/-/client-common-browserify-1.4.2.tgz#033e16db12c4a1b8b62223d4638a75172574dfba"
+  integrity sha512-D/XMuvlSIBhNThvmgORo1FKrFuxx3thWFHe2DWWoWj22Uf8b4hpvzD7UF3QhAT1Y0UAU5neK78VoDdpoXjtbBg==
+  dependencies:
+    "@neo-one/ec-key" "^0.1.0"
+    "@neo-one/utils-browserify" "^1.2.1"
+    bignumber.js "^9.0.0"
+    bn.js "^5.0.0"
+    bs58 "^4.0.1"
+    buffer-xor "^2.0.2"
+    elliptic "^6.5.0"
+    hash.js "^1.1.7"
+    lodash "^4.17.15"
+    rxjs "^6.5.2"
+    safe-stable-stringify "^1.1.0"
+    scrypt-js "^2.0.4"
+    source-map "^0.7.3"
+    tslib "^1.10.0"
+    wif "^2.0.6"
+
 "@neo-one/client-common@^1.4.2":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@neo-one/client-common/-/client-common-1.4.2.tgz#b55d0e174c9a00c0bdc954832568bf6eeb8ac3d7"
@@ -1145,6 +1175,26 @@
     tslib "^1.10.0"
     wif "^2.0.6"
 
+"@neo-one/client-core-browserify@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-core-browserify/-/client-core-browserify-1.4.4.tgz#3af6e8953d4b6a009155616f2f80ff2515795676"
+  integrity sha512-r9SCa2bp2oDSon9Ddr/xWAbl6ljyOUSMlGSgWo1MXOJUfkN4p/Phx82YAeHF6hpZ4uMa/zMD1q1gHfXu2XvZFQ==
+  dependencies:
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/client-switch-browserify" "^1.4.2"
+    "@neo-one/utils-browserify" "^1.2.1"
+    "@reactivex/ix-es2015-cjs" "^2.5.3"
+    bignumber.js "^9.0.0"
+    bn.js "^5.0.0"
+    cross-fetch "^3.0.4"
+    dataloader "^1.4.0"
+    debug "^4.1.1"
+    lodash "^4.17.15"
+    rxjs "^6.5.2"
+    safe-stable-stringify "^1.1.0"
+    tapable "^1.1.3"
+    tslib "^1.10.0"
+
 "@neo-one/client-core@^1.4.4":
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/@neo-one/client-core/-/client-core-1.4.4.tgz#c6a12648ca71b10775639aa00db4f24ef24d3466"
@@ -1163,6 +1213,15 @@
     rxjs "^6.5.2"
     safe-stable-stringify "^1.1.0"
     tapable "^1.1.3"
+    tslib "^1.10.0"
+
+"@neo-one/client-full-common-browserify@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-full-common-browserify/-/client-full-common-browserify-1.2.3.tgz#30d47d66d8da62a1c28a8a466a2541d4a9a2f229"
+  integrity sha512-PQn9TlxGhuuniVXAmdbcF5tbVTMpL/x7OB//ysy736slrzvNfFquZHJa3GeorYSGyEgEvyClSLt95VAExSASbg==
+  dependencies:
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/utils-browserify" "^1.2.1"
     tslib "^1.10.0"
 
 "@neo-one/client-full-common@^1.2.3":
@@ -1188,6 +1247,29 @@
     lodash "^4.17.15"
     tslib "^1.10.0"
 
+"@neo-one/client-switch-browserify@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-switch-browserify/-/client-switch-browserify-1.4.2.tgz#eee9bd3027b269ca640c2903a1e299c12a8cae51"
+  integrity sha512-RNAopAYpKUrVzkp9gwfMmk4aK2nJCSKY5TA2u7Jw9f6U9FbxqyBoIKO7sQ4+MrRvrPVue2nZ8vdx/v2mOWFtXw==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@ledgerhq/hw-transport-u2f" "^4.68.2"
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/node-vm-browserify" "^1.4.2"
+    "@neo-one/utils-browserify" "^1.2.1"
+    "@opencensus/core" "^0.0.16"
+    "@opencensus/exporter-jaeger" "^0.0.16"
+    "@opencensus/exporter-prometheus" "^0.0.16"
+    "@opencensus/nodejs-base" "^0.0.16"
+    "@opencensus/propagation-tracecontext" "^0.0.16"
+    "@opencensus/web-core" "^0.0.6"
+    "@opencensus/web-propagation-tracecontext" "^0.0.6"
+    "@opencensus/web-types" "^0.0.6"
+    lodash "^4.17.15"
+    regenerator-runtime "^0.13.3"
+    source-map "^0.7.3"
+    tslib "^1.10.0"
+
 "@neo-one/client-switch@^1.4.2":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@neo-one/client-switch/-/client-switch-1.4.2.tgz#6938126b361cc5bfa450626bf4d138d6c8ee82d8"
@@ -1211,21 +1293,12 @@
     source-map "^0.7.3"
     tslib "^1.10.0"
 
-"@neo-one/client@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@neo-one/client/-/client-1.2.7.tgz#c79100ba06b4467c17d322ff72fcbf482175ccfe"
-  integrity sha512-YHNaYrZxKAQ/6wAwOnZY+6kztc+uvKtGbwtcyHaFn4Lmf5D8BMPQpnub4Xi0k04j+G0OI3stxmGw98xRYxAETQ==
-  dependencies:
-    "@neo-one/client-common" "^1.4.2"
-    "@neo-one/client-core" "^1.4.4"
-    "@neo-one/developer-tools" "^1.1.10"
-
-"@neo-one/developer-tools@^1.1.10":
+"@neo-one/developer-tools-browserify@^1.1.10":
   version "1.1.10"
-  resolved "https://registry.yarnpkg.com/@neo-one/developer-tools/-/developer-tools-1.1.10.tgz#3da597f49578a055c132e297ab1a499946ce501c"
-  integrity sha512-m5X/fmlrj+qEnXl3goFZ+/po0aQILhuvL5LvKithO3JXzJfiGFZDl1jvQJVy2kX9OYSsRoFooiKMyxV5Zype1g==
+  resolved "https://registry.yarnpkg.com/@neo-one/developer-tools-browserify/-/developer-tools-browserify-1.1.10.tgz#6e65fa03d7a2c7febb48bd2a2b003b5bc2de6055"
+  integrity sha512-GD0Rf5lkUKMqueOXI8RiN+hYn/ceI7KLzM0q+6D6hHhKRX9xaO3FMyHE36T9ygZJm8fYc58zXO5ZlV2QfiZQYQ==
   dependencies:
-    "@neo-one/client-core" "^1.4.4"
+    "@neo-one/client-core-browserify" "^1.4.4"
     resize-observer-polyfill "^1.5.0"
     tslib "^1.10.0"
 
@@ -1301,6 +1374,21 @@
     bignumber.js "^9.0.0"
     bn.js "^5.0.0"
     lodash "^4.17.15"
+    tslib "^1.10.0"
+
+"@neo-one/node-core-browserify@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-core-browserify/-/node-core-browserify-1.2.2.tgz#a251830c705d62df37dc6a54123fdd9ba3d57a78"
+  integrity sha512-qIi9IqFsqAzca/K7dXpkLao7FM47jMcTdCki063zWDKMBW+3qxY+CTyndqgG3gYVQss9q4D6qFIuMxucpKZc6A==
+  dependencies:
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/client-full-common-browserify" "^1.2.3"
+    "@neo-one/utils-browserify" "^1.2.1"
+    bignumber.js "^9.0.0"
+    bn.js "^5.0.0"
+    lodash "^4.17.15"
+    rxjs "^6.5.2"
+    through "^2.3.8"
     tslib "^1.10.0"
 
 "@neo-one/node-core@^1.2.2":
@@ -1430,6 +1518,22 @@
     rxjs "^6.5.2"
     tslib "^1.10.0"
 
+"@neo-one/node-vm-browserify@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-vm-browserify/-/node-vm-browserify-1.4.2.tgz#fd1efdd6dc06671563077708f721dffd577c98ea"
+  integrity sha512-G8G3bAZWT9vSJOp2YuJPegf4SS6O14PtrIT8HUre1O3Q83WcQZaJZAXmE1H3cWAnfi63HQgLYGUq8kBag2msBg==
+  dependencies:
+    "@neo-one/client-common-browserify" "^1.4.2"
+    "@neo-one/client-full-common-browserify" "^1.2.3"
+    "@neo-one/node-core-browserify" "^1.2.2"
+    "@neo-one/utils-browserify" "^1.2.1"
+    "@reactivex/ix-es2015-cjs" "^2.5.3"
+    bitwise "^2.0.3"
+    bn.js "^5.0.0"
+    lodash "^4.17.15"
+    rxjs "^6.5.2"
+    tslib "^1.10.0"
+
 "@neo-one/node-vm@^1.4.2":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@neo-one/node-vm/-/node-vm-1.4.2.tgz#20efc41bf6c29a4d69cbfd621741ea789e7fcfbb"
@@ -1512,7 +1616,7 @@
     source-map "^0.7.3"
     typescript "^3.6.2"
 
-"@neo-one/smart-contract-lib@^1.5.8":
+"@neo-one/smart-contract-lib@1.5.8":
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-lib/-/smart-contract-lib-1.5.8.tgz#fa01963cd7e685ddae45b7f2754b3db529fd6ceb"
   integrity sha512-2tV9ZwJ27+YhRGaznxNC1ITcZ0V8BWfE4x+Pet+PtPCvhLpb8/1MXqcfDSRjLy0+Ex+zXXI4dowd2wZlPyxuew==
@@ -1534,7 +1638,7 @@
     bignumber.js "^9.0.0"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-test@^1.2.6":
+"@neo-one/smart-contract-test@1.2.6":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-test/-/smart-contract-test-1.2.6.tgz#85acde9c8acaf6601c15210d53149f6d5ce421ba"
   integrity sha512-KG6X05UYqPuIC33HAqosv2bD0ETeMZq8YX9xqzCuj38E4nOVwdLJjCX8fFFWbd1UpGnQdjs0ZtAXDr3/a5jUOg==
@@ -1550,7 +1654,7 @@
     memdown "^5.0.0"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-typescript-plugin@^1.1.10":
+"@neo-one/smart-contract-typescript-plugin@1.1.10":
   version "1.1.10"
   resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-typescript-plugin/-/smart-contract-typescript-plugin-1.1.10.tgz#788a6034a9049587c497bbeb7d316cd1cd53c1d8"
   integrity sha512-eLnf+rw5tN7yevOulSwg+TtRR0VzsvfCPFfAithKnXlmul4QtEYZa5vPbElF/Rjl4VuRS7eGT+2adRXltR6Xsw==
@@ -1559,22 +1663,10 @@
     "@neo-one/smart-contract-compiler-node" "^1.1.7"
     typescript "^3.6.2"
 
-"@neo-one/smart-contract@^1.1.1":
+"@neo-one/smart-contract@1.1.1", "@neo-one/smart-contract@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@neo-one/smart-contract/-/smart-contract-1.1.1.tgz#6727cfdfcf88141f049a1212155372144ab9017e"
   integrity sha512-MZ5uHzC4Rop73UGCfRyP+IGkSvznc4OqmGH3B4YK/qYtIpyypG9sU5RTQzwAOYAMF5m6JeNoSq1JQH1Q9rxF7w==
-
-"@neo-one/suite@^1.2.10":
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/@neo-one/suite/-/suite-1.2.10.tgz#6f16138789e4727184f122543ee353cc48ae8c30"
-  integrity sha512-Zduu9jvIGSUszo6aEc2E7qtMQlMLNzF26aChyzcaEGEcvdlA3KhGZ/7S74+Kpbu4UjHX77yo9s7X+ZCaI6sK8Q==
-  dependencies:
-    "@neo-one/cli" "^1.3.6"
-    "@neo-one/client" "^1.2.7"
-    "@neo-one/smart-contract" "^1.1.1"
-    "@neo-one/smart-contract-lib" "^1.5.8"
-    "@neo-one/smart-contract-test" "^1.2.6"
-    "@neo-one/smart-contract-typescript-plugin" "^1.1.10"
 
 "@neo-one/ts-utils@^1.2.4":
   version "1.2.4"
@@ -1595,6 +1687,15 @@
     lodash "^4.17.15"
     toposort "^2.0.2"
     typescript "^3.6.2"
+
+"@neo-one/utils-browserify@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/utils-browserify/-/utils-browserify-1.2.1.tgz#6ec3dd04d810f12bc31962626a1eaeae3d8ff36d"
+  integrity sha512-Gb48UFj/sJR8VFTdZYWfrUYyGGmVPYS8Q2kYIdBSUNdXqgVVW2S4xNqBJUm2HFkUFMXIKERMe3NpiDW8Vbq/DA==
+  dependencies:
+    lodash "^4.17.15"
+    rxjs "^6.5.2"
+    tslib "^1.10.0"
 
 "@neo-one/utils-node@^1.2.1":
   version "1.2.1"
